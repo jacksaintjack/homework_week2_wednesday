@@ -1,0 +1,85 @@
+@import'../bower_components/bourbon/app/assets/stylesheets/_bourbon.scss';
+@import'../bower_components/neat/app/assets/stylesheets/_neat.scss';
+
+// @media (min-width:0px) and (max-width:478px){
+//Header Styles
+header{
+  @include outer-container;
+  height:66.4vw;
+  margin-top:2%;
+
+  header>section{
+    @include span-columns(12);
+  }
+
+  .logo{
+    @include span-columns(3);
+    text-align:center;
+    color:#696F75;
+    font-weight: bold;
+  }
+
+  .headerImage{
+    @include span-columns(12);
+    margin-top:2.5%;
+    height:48vw;
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align:center;
+    font-size:2.3em;
+    color:white;
+    font-weight: bold;
+    text-shadow: 2px 1px 1px black;
+    padding-top:15%;
+  }
+
+  .logoColor{
+    color:black;
+  }
+}
+//Main Style Section
+  main{
+    @include outer-container;
+    height:200vw;
+    padding:0 2% 0 2%;
+    text-align:center;
+    color:white;
+  }
+  main{
+    height:100vw;
+  }
+  .adverBox{
+    height:100vw;
+  }
+
+  .fiveDoller{
+    @include span-columns(12);
+    background:#519251;
+    height: 53vw;
+    padding-top:9%;
+    font-size:1.5em;
+  }
+
+  .largeText{
+    font-size:4em;
+  }
+
+  div:nth-child(1n+2){
+    @include span-columns(12);
+    color:black;
+    height:11vw;
+    font-size: bolder;
+    background:#F7F7F7;
+    border:1px solid gray;
+    padding-top:4%;
+    color:gray;
+    font-size:1.2em;
+  }
+
+  .bottomBox{
+    width:100%;
+    height:100em;
+  }
+
+// }
