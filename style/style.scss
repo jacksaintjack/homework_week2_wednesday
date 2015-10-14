@@ -47,10 +47,10 @@ header{
     color:white;
   }
   main{
-    height:100vw;
+    height:709vw;
   }
   .adverBox{
-    height:100vw;
+    height:140vw;
     margin-top:17%;
   }
 
@@ -95,7 +95,7 @@ header{
     border-left: 1px solid gray;
     border-right: 1px solid gray;
     border-bottom: 1px solid gray;
-    margin-bottom:10%
+    margin-bottom:6%;
   }
 
   button{
@@ -108,5 +108,55 @@ header{
   }
 
   //Article style
+  article{
+    @include outer-container;
+    height:256vw;
+  }
+  .articleBox{
+    @include span-columns(12);
+    height:19em;
+    @include omega(12);
+    padding-right: 5%;
+    padding-left: 6%;
+
+  .boxThree{
+    margin-top:10%;
+  }
+
+    h2{
+      color:black;
+      float:left;
+      text-align:left;
+      padding-right:15%;
+      margin-bottom:2%;
+    }
+    p{
+      color:gray;
+      float:left;
+      font-size:1.3em;
+      text-align: left;
+    }
+}
+
+  footer{
+    @include span-columns(12);
+    height:7em;
+    padding:0 1% 2% 1%;
+  }
+
+  footer section{
+    @include span-columns(12);
+    background:black;
+    height:100%;
+    color:white;
+    text-align: center;
+    font-size:1.1em;
+    padding-top:6%;
+    color:gray;
+  }
+  .whiteUnderline{
+    color:white;
+    text-decoration: underline;
+  }
 
 // }
