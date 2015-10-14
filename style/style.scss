@@ -5,7 +5,7 @@
 //Header Styles
 header{
   @include outer-container;
-  height:66.4vw;
+  height:50.8vw;
   margin-top:2%;
 
   header>section{
@@ -51,6 +51,7 @@ header{
   }
   .adverBox{
     height:100vw;
+    margin-top:17%;
   }
 
   .fiveDoller{
@@ -60,9 +61,19 @@ header{
     padding-top:9%;
     font-size:1.5em;
   }
+  .twentyDoller{
+    background:#2C4985;
+  }
+
+  .fortyFive{
+    background:black;
+  }
 
   .largeText{
     font-size:4em;
+  }
+  .trans{
+    opacity:0.4;
   }
 
   div:nth-child(1n+2){
@@ -75,11 +86,27 @@ header{
     padding-top:4%;
     color:gray;
     font-size:1.2em;
+    margin:0;
   }
 
   .bottomBox{
-    width:100%;
-    height:100em;
+    @include span-columns(12);
+    height:5.3em;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+    margin-bottom:10%
   }
+
+  button{
+    height: 2.5em;
+    margin-top: 1.4em;
+    width: 24%;
+    border-radius: 1em;
+    color:black;
+    background:white;
+  }
+
+  //Article style
 
 // }
