@@ -38,6 +38,7 @@ header{
     color:black;
   }
 }
+
 //Main Style Section
   main{
     @include outer-container;
@@ -160,3 +161,21 @@ header{
   }
 
 // }
+
+  @media (min-width:479px) and(max-width: 767px){
+    main{
+      height: 520vw;
+    }
+
+    .adverBox{
+      height:118vw;
+    }
+
+    .title{
+      font-size: 1.7em;
+    }
+
+    .articleBox{
+      height:15em;
+    }
+  }
