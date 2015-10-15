@@ -210,3 +210,50 @@ footer section {
     font-size: 1.7em; }
   .articleBox {
     height: 15em; } }
+
+@media (min-width: 767px) and (max-width: 978px) {
+  header > section {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 74.41059%; }
+    header > section:last-child {
+      margin-right: 0; }
+  .logo {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 23.23176%;
+    font-size: 1.3em; }
+    .logo:last-child {
+      margin-right: 0; }
+  main {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    padding: 0; }
+    main:last-child {
+      margin-right: 0; }
+  .adverBox {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 31.76157%;
+    margin-right: 1%;
+    height: 108vw; }
+    .adverBox:last-child {
+      margin-right: 0; }
+  .fiveDoller {
+    height: 28vw; }
+  div:nth-child(1n+2) {
+    padding-top: 14%; }
+  .articleBox {
+    height: 14em;
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%;
+    margin-right: 1%; }
+    .articleBox:last-child {
+      margin-right: 0; } }
